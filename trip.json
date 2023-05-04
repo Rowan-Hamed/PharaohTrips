@@ -1,0 +1,44 @@
+[
+    {
+        "destination": "cairo",
+        "start_date ": "2023-05-10",
+        "end_date ": "2023-05-23",
+        "budget": "100",
+        "id": "64543c25419cd"
+    },
+    {
+        "destination": "cairo",
+        "start_date ": "2023-05-24",
+        "end_date ": "2023-05-25",
+        "budget": "200",
+        "id": "64543c25419ef"
+    },
+    {
+        "destination": "cairo",
+        "start_date ": "2023-05-26",
+        "end_date ": "2023-05-27",
+        "budget": "300",
+        "id": "64543c25419f0"
+    },
+    {
+        "destination": "cairo",
+        "start_date ": "2023-05-28",
+        "end_date ": "2023-05-29",
+        "budget": "400",
+        "id": "64543c25419f1"
+    },
+    {
+        "destination": "Aswan",
+        "start_date ": "2023-05-28",
+        "end_date ": "2023-05-29",
+        "budget": "400",
+        "id": "64543c25419f2"
+    },
+    {
+        "destination": "cairo",
+        "start_date ": "2023-05-19",
+        "end_date ": "2023-05-27",
+        "budget": "1000",
+        "id": "64543c25419f3"
+    }
+]
