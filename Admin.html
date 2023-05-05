@@ -103,34 +103,33 @@
     font-weight: bold;
     color: #000000;
 }
-.nav-area{
-    float: right;
-    list-style: none;
-    margin-top: -30px;
-    margin-right: 15px;
+.detalis-trip-form {
+  float: right;
+  list-style: none;
+  margin-top: -30px;
+  margin-right: 15px;
 }
-.nav-area li{
-    display: inline-block;
+
+.detalis-trip-form input[type="submit"] {
+  color: black;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
-.nav-area li a{
-    color: black;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-.nav-area li a:hover{
-    background: #000000;
-    color: rgb(255, 255, 255);
+
+.detalis-trip-form input[type="submit"]:hover {
+  background: #000000;
+  color: rgb(255, 255, 255);
 }
   </style>
   <body>
    <section>
     <h1>All Users</h1>
-    <form class="form" action="/search" method="post ">
+    <form class="form" action="search.php" method="post">
       <label for="search-input"> search</label>
-      <input type="text" id="search-input" name="search" placeholder="Search for a Trip">
+      <input type="text" id="search-input" name="destination" placeholder="Search for a Trip">
       <button type="submit">Search</button>
     </form>
     <!-- <aside class="nav-area">
@@ -139,12 +138,23 @@
         <li><a id="3" href="admin.html">All users</a></li><br>
         <li><a id="4" href="">Logout</a></li><br>
     </aside> -->
-    <ul class="nav-area">
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Trips</a></li>
-        <li><a href="admin.html">All users</a></li>
+    <!-- <ul class="nav-area">
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="trips.php"name="trips">Trips</a></li>
+        <li><a href="search.html">All users</a></li>
         <li><a href="#">Logout</a></li>
-    </ul>
+    </ul> -->
+    <div class="detalis-trip-form"></div>
+    <form action="details.php"method="post">
+      <input type="submit" name="trips" value="Trips" id="trips">
+      <input type="submit" name="users" value="All users" id="users">
+      <input type="submit" name="profile" value="Profile" id="profile">
+      <input type="submit" name="logout" value="Logout" id="logout">
+      <br><br>
+      <input type="submit" name="add" value="Add" id="add">
+      <input type="submit" name="remove" value="Remove" id="remove">
+     </form>
+    </div>
       <table id="Recent-users">
         <caption>All Users</caption>
         <thead>
