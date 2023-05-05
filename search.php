@@ -8,13 +8,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Find user with matching email
     foreach ($data as $trip) {
         if ($trip['destination'] == $destination) {
-             echo "Destination : ".$trip['destination'].'<br>';
-             echo "Start date: ".$trip['start_date'].'<br>';
-             echo "End date : ".$trip['end_date'].'<br>';
-             echo "Budget: ".$trip['budget'].'<br>';
-             echo '<br><br>';
+             
+             echo "<center><h1>Destination : ".$trip['destination'].'<br></h1>';
+             echo '<img src="'.$trip['destination_photo'].'" alt="'.$trip['destination'].'" width="350"> <br>';
+             echo "<h3>Start date: ".$trip['start_date'].'<br></h3>';
+             echo "<h3>End date : ".$trip['end_date'].'<br></h3>';
+             echo "<h3>Budget: ".$trip['budget'].'<br></h3></center>';
+             echo '<br>';
+             echo'<hr>';
         }
-    }
+    }?>
+    <center><button><a href="search.html">Back</a></button></center>
+    <?php
+
     exit;
         // User not found
         echo 'Destiantion not found';
