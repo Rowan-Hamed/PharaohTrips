@@ -1,0 +1,47 @@
+.add-trip-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-trip-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-trip-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-trip-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .add-trip-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }    
+   .add-trip-form input[type="file"]:valid + label[for="photo"]::after {
+    content: attr(data-file-name);
+  } 
+  .add-trip-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-trip-form button:hover {
+    background-color: #3e8e41;
+  }
