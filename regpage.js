@@ -69,4 +69,8 @@ const validateInputs = () => {
         setSuccess(password2);
     }
 
+    if (usernameValue !== '' && emailValue !== '' && isValidEmail(emailValue) && passwordValue !== '' && passwordValue.length >= 8 && password2Value !== '' && password2Value === passwordValue) {
+        form.submit();
+    }
 };
+
