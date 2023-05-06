@@ -1,0 +1,42 @@
+[
+    {
+        "username": "Admin",
+        "email": "Admin@gmail.com",
+        "password": "$2y$10$ArAD.mXHXk\/84Zn\/w0kjzeoB5T4..xG8C6mawgZ0kp890m1xi7CKK"
+    },
+    {
+        "username": "Rowan",
+        "email": "Rowan@gmail.com",
+        "password": "$2y$10$Ko4S\/2jIzDpKeoEe64ietuVhLrkWgCqAIfnu2IjQqdBicWABZBNA."
+    },
+    {
+        "username": "Nabil",
+        "email": "Nabil@gmail.com",
+        "password": "$2y$10$P\/yzqNsiZcYR3YVOppdiMuyc8EKQqV.IWGMyrwCJDexE\/MsZHJdj."
+    },
+    {
+        "username": "RO",
+        "email": "RO@gmail.com",
+        "password": "$2y$10$zCiE36ZGlCekJeD37kUKUu3dHz8inn5mFALju8Z6piuOoMf2.D44q"
+    },
+    {
+        "username": "bro",
+        "email": "bro@gmail.com",
+        "password": "$2y$10$tUZxzMYSgZVOp.dbk5dPkOasbOP83SSxdAVqnj0hh7WggiOjkaFem"
+    },
+    {
+        "username": "Rawan",
+        "email": "Rawan@gmail.com",
+        "password": "$2y$10$gCus7Ifg79Fn2X\/O95wLj.yeMQNdVrNO6A3QBLHvpoLg49\/2TZ59a"
+    },
+    {
+        "username": "Ahmed",
+        "email": "Ahmed@gmail.com",
+        "password": "$2y$10$BpdJJ6ZvletSkpKwiVpH.ejCsfdV7WwTbucRz3YwYWWx0rXrgm6u2"
+    },
+    {
+        "username": "Peter",
+        "email": "Peter@gmail.com",
+        "password": "$2y$10$IZq4YhbTSNcC\/CB7TARey.Knlhq.7e.\/EdZEV7igPol94D1EU3TVa"
+    }
+]
