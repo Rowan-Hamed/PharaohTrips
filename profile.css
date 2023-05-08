@@ -1,0 +1,25 @@
+.profile-trip-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-trip-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-trip-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .profile-trip-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }

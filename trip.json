@@ -1,0 +1,42 @@
+{
+    "2": {
+        "destination": "Alexandria",
+        "destination_photo": "Alexandria_Egypt.jpg",
+        "start_date": "2023-05-10",
+        "end_date": "2023-05-11",
+        "budget": "400",
+        "id": "6458a2937d64e"
+    },
+    "3": {
+        "destination": "Aswan",
+        "destination_photo": "Aswan.jpg",
+        "start_date": "2023-05-12",
+        "end_date": "2023-05-13",
+        "budget": "300",
+        "id": "6458a2937d653"
+    },
+    "4": {
+        "destination": "Sharm El-Sheikh",
+        "destination_photo": "sharm-el-sheikh.jpg",
+        "start_date": "2023-05-14",
+        "end_date": "2023-05-15",
+        "budget": "500",
+        "id": "6458a2937d654"
+    },
+    "5": {
+        "destination": "Cairo",
+        "destination_photo": "https:\/\/img.theculturetrip.com\/wp-content\/uploads\/2021\/07\/c49y89-e1626878574776.jpg",
+        "start_date": "2023-05-18",
+        "end_date": "2023-05-19",
+        "budget": "200",
+        "id": "6458a2937d655"
+    },
+    "6": {
+        "destination": "Luxor",
+        "destination_photo": "axp-photography-Bc38dKIh9lQ-unsplash.jpg",
+        "start_date": "2023-05-25",
+        "end_date": "2023-05-26",
+        "budget": "300",
+        "id": "6458a2937d656"
+    }
+}

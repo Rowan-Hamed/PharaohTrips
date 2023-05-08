@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pharaoh Trips:Home</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<style>
+h1{
+	text-align: center;
+    color: #0b0825;
+    text-transform: uppercase;
+    font-size: 60px;
+	margin-top: 5%;
+	cursor:default;
+
+}
+.head {
+  white-space: pre;
+  margin: 30;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: -50px;
+    margin-right: -3px;
+	padding : 5px;
+}
+.details-header-form {
+  float:left;
+  list-style: none;
+  margin-top: -50px;
+  margin-right: 15px;
+}
+
+.details-header-form input[type="submit"] {
+  color: black;
+  text-decoration: none;
+  padding: 5px 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.details-header-form input[type="submit"]:hover {
+  background:#0066db;
+  color: rgb(255, 255, 255);
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #0e0e0f;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.nav-area li a:hover{
+    background: #FFD95A;
+    color: #0e0e0f;
+	border-radius: 10px;
+}
+
+.hero{
+	margin-top: 90px;
+
+}
+.hero h4{
+	text-align: center;
+    color: #0e0e0f;
+    text-transform: capitalize;
+    font-size: 55px;
+	font-weight: 1000;
+	margin-bottom: 25px;
+	margin-top: -20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero p{
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+	margin-top: -15px;
+}
+
+h2{
+	text-align: left;
+    color: #212A3E;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 100;
+    text-transform: capitalize;
+    font-size: 30px;
+	margin: 60px 0 20px;
+	background-color: #eeeeee;
+	padding: 20px 8px;
+	border-bottom: 3px solid #0066db;
+}
+.destination_plan{
+	width: 400px;
+	border-radius: 25px;
+	box-shadow: 0 0 5px rgb(0,0,0,0.2);
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height:1.5;
+	color: #555555;
+	margin: 15px;
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.plan_header{
+	padding: 25px;
+	background-color: #0066db;
+	color: #ffffff;
+}
+.plan_title,
+.plan_date{
+	margin: 0;
+	text-align: center;
+}
+.plan_title{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.plan_date{
+	font-size: 1em;
+	font-weight:400;
+}
+.plan_dscription img{
+	height: 305px;
+	width: 400px;
+	border-top: 4px solid rgb(255, 201, 25);
+	border-bottom: 4px solid rgb(255, 201, 25);
+}
+.plan_price{
+	padding: 25px;
+	border-top: 1px solid #eeeeee;
+	display: flex;
+	flex-direction: column;
+}
+.booking_button{
+	display: inline-block;
+	margin:15px auto;
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #0066db;
+	background: #ffffff;
+	border-radius: 5px;
+	border: 1px solid #0066db;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	font-weight: bold;
+	transition: 0.3s;
+}
+.booking_button:hover{
+	background: #0066db;
+	color: #ffffff;
+	transition: 0.3s;
+
+}
+.plan_cost{
+	margin: 0;
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #000000;
+}
+.plan_text{
+	font-size: 0.9em;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+span:hover{
+		cursor: pointer;
+}
+.booked_button{
+	display: inline-block;
+	margin:15px auto;
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #ffffff;
+	background: #0066db;
+	border-radius: 5px;
+	border: 1px solid #0066db;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+label .booking_button{
+	position: absolute;
+	margin-top: 50px;
+}
+
+.copyright {
+	font-size: 14px;
+	font-weight: bold;
+	color: #999;
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 10px;
+	border-top: 1px #999;
+  }
+  .tippy-tooltip.huge-theme{
+	font-size : 1.1em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    text-align: center;
+  }
+
+  .box{
+	display: inline-block;
+	margin-right: 10px;
+  }
+  .text-container {
+	display: inline-block;
+	line-height: 2px solid rgb(225, 16, 16);
+  }
+
+</style>
+
+<body>
+
+	<header>
+		<nav>
+			<ul class="nav-area">
+				<li><a href="UserHome.html">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="https://www.facebook.com/profile.php?id=100091713705390">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+				<div class="form"></div>
+				<form class="details-header-form" action="userHome.php"method="post">
+					<input type="submit" name="logout" value="Logout" id="logout">
+					<input type="submit" name="trips" value="Trips" id="trips">
+				</form>
+			</div>
+		
+
+			<h1 class="head">Pharaoh Trips</h1>
+
+	</header>
+	<main>
+		<div style="width:500px"></div>
+		<section class="hero">
+			<h4>Explore Egypt</h4>
+			<p>Plan your next adventure with us</p>
+		</section>
+		<h2>Popular Destinations</h2>
+		<div class="container">
+		<section class="destination_plan">
+			<div class="plan_header">
+				<h4 class="plan_title">Alexandria</h4>
+				<h5 class="plan_date">Start date: 10-05-2023</h5>
+				<h5 class="plan_date">End date: 11-05-2023</h5>
+			</div>
+			<div class="plan_dscription">
+				<a href="https://en.m.wikipedia.org/wiki/Alexandria" target="_blank">
+					<img src="Alexandria_Egypt.jpg" alt="Alexandria">
+				</a>
+			</div>
+			<div class="plan_price">
+				<p class="plan_cost">EGP  400</p>
+				<p class="plan_text">Price For Two Adults</p>
+				<span id="btn1" class="booking_button" onclick="toggleSwitch()" data-tippy-content="Book Now an Adventrue for Alexandria">Book Now</span>
+			</div>
+		</section>
+
+
+		<section class="destination_plan">
+			<div class="plan_header">
+				<h4 class="plan_title">Aswan</h4>
+				<h5 class="plan_date">Start date: 12-05-2023</h5>
+				<h5 class="plan_date">End date: 13-05-2023</h5>
+			</div>
+			<div class="plan_dscription">
+				<a href="https://en.m.wikipedia.org/wiki/Aswan" target="_blank">
+					<img src="Aswan.jpg" alt="">
+				</a>
+			</div>
+			<div class="plan_price">
+				<p class="plan_cost">EGP  300</p>
+				<p class="plan_text">Price For Two Adults</p>
+				<span id="btn2" class="booking_button" onclick="toggleSwitch1()" data-tippy-content="Book Now an Adventrue for Aswan">Book Now</span>
+			</div>
+		</section>
+
+
+
+		<section class="destination_plan">
+			<div class="plan_header">
+				<h4 class="plan_title">Sharm El-Sheikh</h4>
+				<h5 class="plan_date">Start date: 14-05-2023</h5>
+				<h5 class="plan_date">End date: 15-05-2023</h5>
+			</div>
+			<div class="plan_dscription">
+				<a href="https://en.m.wikipedia.org/wiki/Sharm_El_Sheikh" target="_blank">
+					<img src="sharm-el-sheikh.jpg" alt="">
+				</a>
+			</div>
+			<div class="plan_price">
+				<p class="plan_cost">EGP  1000</p>
+				<p class="plan_text">Price For Two Adults</p>
+				<span id="btn3" href="" class="booking_button" onclick="toggleSwitch2()" data-tippy-content="Book Now an Adventrue for sharm-el-sheikh">Book Now</span>
+			</div>
+		</section>
+		</div>
+
+		<script>
+			function toggleSwitch() {
+				const Btn1 = document.getElementById("btn1");
+				if (Btn1.classList.contains("booking_button")) {
+					Btn1.classList.replace("booking_button", "booked_button");
+					Btn1.innerText = "Booked";
+				} else {
+					Btn1.classList.remove("booked_button");
+					Btn1.classList.add("booking_button");
+					Btn1.innerText = "Book Now";
+				}
+			  }
+			  
+			  function toggleSwitch1() {
+				const Btn2 = document.getElementById("btn2");
+				if (Btn2.classList.contains("booking_button")) {
+					Btn2.classList.replace("booking_button", "booked_button");
+					Btn2.innerText = "Booked";
+				} else {
+					Btn2.classList.remove("booked_button");
+					Btn2.classList.add("booking_button");
+					Btn2.innerText = "Book Now";
+				}
+			  }
+			  function toggleSwitch2() {
+				const Btn3 = document.getElementById("btn3");
+				if (Btn3.classList.contains("booking_button")) {
+					Btn3.classList.replace("booking_button", "booked_button");
+					Btn3.innerText = "Booked";
+				} else {
+					Btn3.classList.remove("booked_button");
+					Btn3.classList.add("booking_button");
+					Btn3.innerText = "Book Now";
+				}
+			  }
+		</script>
+		<script src="https://unpkg.com/popper.js@1"></script>
+		<script src="https://unpkg.com/tippy.js@4"></script>
+		<script src="script.js"></script>
+	</main>
+	<footer>
+		<p class="copyright">&copy; 2023 Pharaoh Trips . All rights reserved.</p>
+	</footer>
+</body>
+</html>

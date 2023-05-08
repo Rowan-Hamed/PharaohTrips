@@ -1,0 +1,56 @@
+[
+    {
+        "username": "Admin",
+        "email": "Admin@gmail.com",
+        "password": "$2y$10$ArAD.mXHXk\/84Zn\/w0kjzeoB5T4..xG8C6mawgZ0kp890m1xi7CKK",
+        "id": "64589f3883869"
+    },
+    {
+        "username": "Ahmed",
+        "email": "Ahmed@gmail.com",
+        "password": "$2y$10$vFcvkBR9AREOjjeWqiV1nuecrWsJZ1hjaV4cFb4OAvtbyNNsvMMEG",
+        "id": "64589f388386c"
+    },
+    {
+        "username": "Youssef",
+        "email": "Youssef@gmail.com",
+        "password": "$2y$10$LHaRcmhxT\/uw0rVhDWOss.FUkm1tvb55CcvO8XMnN7KdPHsnNgh0u",
+        "id": "64589f388386d"
+    },
+    {
+        "username": "Youssef",
+        "email": "Youssef1@gmail.com",
+        "password": "$2y$10$Yjdr2ckyTNGNs3uyudibBOPhu5ww3TuzOiyeGik7XTh06HDLi7Ive",
+        "id": "64589f388386e"
+    },
+    {
+        "username": "Salah",
+        "email": "Salah@gmail.com",
+        "password": "$2y$10$qKh\/tGtmhZRhGkY\/roRm5uukdr5NQfOWcZmY1hxmXcc6hG7L2.2Ae",
+        "id": "64589f388386f"
+    },
+    {
+        "username": "Mohammed",
+        "email": "Mohammed@gmail.com",
+        "password": "$2y$10$cZV.mF4xbFYQOnoh8MXSJ.6vjb6hBD6lXcNgqzStnI8UFLez687AG",
+        "id": "64589f3883870"
+    },
+    {
+        "username": "Nabil",
+        "email": "Nabil@gmail.com",
+        "password": "$2y$10$4hY9jCs\/M594fRN2gqEY1u5Gmb6DDSvOOD289frpG0s7XjsYFKrM2",
+        "id": "64589f3883871"
+    },
+    {
+        "username": "Rawan",
+        "email": "Rawan@gmail.com",
+        "password": "$2y$10$zqH.e3RlAenTiLuyN6MpGuFY.17hWtCO1Wo3S2\/..UpJAYwlDdyg2",
+        "id": "64589f3883872"
+    },
+    {
+        "username": "Mai",
+        "email": "Mai@gmail.com",
+        "password": "$2y$10$hk1HuNITL9glXlugdOpgheNPOo01sDO.htBT1GVIBJ\/ov9JYjpH5S",
+        "id": "64589f3883873"
+    }
+]
