@@ -71,31 +71,26 @@ header{
 }
 
 @media only screen and (max-width: 768px) {
-    .wrapper{
-        width: 100%;
-        padding: 0 20px;
-    }
     .nav-area{
-        margin-right: 0;
-        margin-top: 20px;
-        text-align: center;
+        float:none;
+        margin-top:0;
+        text-align:center;
     }
     .nav-area li{
         display: block;
         margin-bottom: 10px;
     }
     .logo img{
-        margin-left: 0;
-        margin-top: 20px;
+        float:none;
+        margin:0 auto;
     }
     .welcome{
-        width: 100%;
-        margin: 30% 0;
+        margin: 15% auto;
     }
     .welcome h1{
         font-size: 40px;
     }
     .welcome a{
-        margin: 10px;
+        font-size:12px;
     }
 }
